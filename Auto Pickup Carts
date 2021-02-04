@@ -1,0 +1,7 @@
+while wait()do
+local args = {
+    [1] = 4
+}
+
+game:GetService("ReplicatedStorage").Scene.SceneManager.PlayerTake:FireServer(unpack(args))
+end
